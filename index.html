@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/201f1e5ddb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="index.html">
+        <img src="image/logo2.png" class="logo" />
+      </a>
+        <ul>
+          <li><img src="image/notification.png" /></li>
+          <li><img src="image/inbox.png" /></li>
+          <li><img src="image/video.png" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="image/search.png" alt="" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="image/hero2.png" />
+        </div>
+      </div>
+ <!--/***************Setting************/-->
+      <div class="setting-menu">
+        <div id="dark-btn" >
+          <span></span>
+        </div>
+        <div class="setting-menu-inner">
+          <div class="user-profile">
+            <img src="image/hero2.png" alt="" />
+            <div>
+              <p>Aman kumar</p>
+               <a href="profile.html">See your profile</a>
+            </div>
+          </div>
+
+          <hr>
+  
+          <div class="user-profile">
+            <img src="image/feedback.png" alt="" />
+            <div>
+              <p>Give Feedback</p>
+               <a href="#">Help us to improve the new design</a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="setting-links">
+          <img src="image/setting.png" class="setting-icon">
+          <a href="#">Setting & Privacy <img src="image/arrow.png" width="10px"></a>
+          </div>
+
+
+          <div class="setting-links">
+            <img src="image/help.png" class="setting-icon">
+            <a href="#">Help & Support <img src="image/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="setting-links">
+              <img src="image/display.png" class="setting-icon">
+              <a href="#">Display & Accessibility <img src="image/arrow.png" width="10px"></a>
+              </div>
+
+              <div class="setting-links">
+                <img src="image/logout.png" class="setting-icon">
+                <a href="#">Logout<img src="image/arrow.png" width="10px"></a>
+                </div>
+        </div>
+       
+
+
+      </div>
+    </nav>
+
+    <div class="container">
+      <!--/***************Left Sidebar************/-->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#"><img src="image/news.png" alt="" />Latest News</a>
+          <a href="#"><img src="image/friends.png" alt="" />Friends</a>
+          <a href="#"><img src="image/group.png" alt="" />Group</a>
+          <a href="#"><img src="image/marketplace.png" alt="" />Marketplace</a>
+          <a href="#"><img src="image/watch.png" alt="" />Watch</a>
+          <a href="#">See More</a>
+        </div>
+        <div class="shorcut-links">
+          <p>Your Shortcuts</p>
+          <a href="#"
+            ><img src="image/shortcut-1.png" alt="" />Web Developers</a
+          >
+          <a href="#"><img src="image/shortcut-2.png" alt="" />Web design</a>
+          <a href="#"
+            ><img src="image/shortcut-3.png" alt="" />Full Stack Development</a
+          >
+          <a href="#"
+            ><img src="image/shortcut-4.png" alt="" />Website Expert</a
+          >
+        </div>
+      </div>
+
+      <!--/***************Main-content************/-->
+      <div class="main-content">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="image/upload.png" alt="" />
+            <p>Post Story</p>
+          </div>
+
+          <div class="story story2">
+            <img src="image/bikash.png" alt="" />
+            <p>Bikash</p>
+          </div>
+
+          <div class="story story3">
+            <img src="image/bipul.png" alt="" />
+            <p>Bipul Singh</p>
+          </div>
+
+          <div class="story story4">
+            <img src="image/rak.png" alt="" />
+            <p>Rakshit Raj</p>
+          </div>
+
+          <div class="story story5">
+            <img src="image/sorabhh.png" alt="" />
+            <p>Kumar Sorabh</p>
+          </div>
+        </div>
+
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="image/hero2.png" alt="" />
+            <div>
+              <p>Aman kumar</p>
+              <small>Public <i class="fas fa-caret-down"></i></small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea
+              rows="3"
+              placeholder="what's on your mind,Sorabh"
+            ></textarea>
+            <div class="add-post-links">
+              <a href="#"><img src="image/live-video.png" />Live Video</a>
+              <a href="#"><img src="image/photo.png" />Photo/Video</a>
+              <a href="#"><img src="image/feeling.png" />Feling/Activity</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="image/sorabhh.png" alt="" />
+                    <div>
+                      <p>Aman kumar</p>
+                      <span>June 24 2021,13:40 pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+          <p class="post-text">
+            A true friend is one soul in two bodies.
+            <a href="#">#Withfriends</a> <a href="#">#Friends</a>
+          </p>
+          <img src="image/post1.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="image/like-blue.png" />120</div>
+              <div><img src="image/comments.png" />30</div>
+              <div><img src="image/share.png" />15</div>
+            </div>
+            <div class="post-profile-icon">
+                <img src="image/sorabhh.png"><i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="image/bikash.png" alt="" />
+                    <div>
+                      <p>Bikash Choudhary</p>
+                      <span>June 25 2021,2:10 pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+          <p class="post-text">
+            I'm not high maintenance, you're just low effort.
+            <a href="#">#Alone</a> <a href="#"></a>
+          </p>
+          <img src="image/bikashfull.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="image/like-blue.png" />200</div>
+              <div><img src="image/comments.png" />50</div>
+              <div><img src="image/share.png" />20</div>
+            </div>
+            <div class="post-profile-icon">
+                <img src="image/bikash.png"><i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="image/sahil.png" alt="" />
+                    <div>
+                      <p>Sahil Kumar</p>
+                      <span>June 24 2021,13:40 pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+          <p class="post-text">
+            A good friend knows your wild stories. Your best friend was right there with you!
+            <a href="#">#Withfriends</a> <a href="#">#Friends</a>
+          </p>
+          <img src="image/sahilpost.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="image/like-blue.png" />400</div>
+              <div><img src="image/comments.png" />220</div>
+              <div><img src="image/share.png" />13</div>
+            </div>
+            <div class="post-profile-icon">
+                <img src="image/sahil.png"><i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="image/profile-pic.png" alt="" />
+                    <div>
+                      <p>John Nicholson</p>
+                      <span>June 28 2021,12:40 pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+          <p class="post-text">
+            “Profit is not something to add on the end, it is something to plan for in the beginning.” – Megan Auman
+            <a href="#">#bussiness</a> <a href="#"></a>
+          </p>
+          <img src="image/feed-image-1.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="image/like-blue.png" />1000</div>
+              <div><img src="image/comments.png" />700</div>
+              <div><img src="image/share.png" />300</div>
+            </div>
+            <div class="post-profile-icon">
+                <img src="image/profile-pic.png"><i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+
+
+        
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="image/Rak.png" alt="" />
+                    <div>
+                      <p>Rakshit Raj</p>
+                      <span>June 30 2021,10:40 am</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+          <p class="post-text">
+            The people who give you their food give you their heart. - ...
+            <a href="#">#foodie</a> <a href="#"></a>
+          </p>
+          <img src="image/2.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="image/like-blue.png" />240</div>
+              <div><img src="image/comments.png" />10</div>
+              <div><img src="image/share.png" />50</div>
+            </div>
+            <div class="post-profile-icon">
+                <img src="image/rak.png"><i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="load-more-btn">Load More</button>
+      </div>
+
+   
+
+      <!--/***************right Sidebar************/-->
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Media</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Naka-5,Darbhanga</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>22</h3>
+            <span>June</span>
+          </div>
+          <div class="right-event">
+            <h4>Mobile Marketing</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Tower,Darbhanga</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="sidebar-title">
+          <h4>Advertisement</h4>
+          <a href="#">Close</a>
+        </div>
+        <img src="image/meeting.jpg" class="sidebar-ads" />
+        <div class="sidebar-title">
+          <h4>conversation</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="image/bikash.png" alt="" />
+          </div>
+          <p>Bikash Choudhary</p>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="image/sorabhh.png" alt="" />
+          </div>
+          <p>Kumar Saurabh</p>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="image/profileimg2.png" alt="" />
+          </div>
+          <p>Aman Jha</p>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="image/Rak.png" alt="" />
+          </div>
+          <p>Rakshit Raj</p>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="image/bipul.png" alt="" />
+          </div>
+          <p>Bipul Singh</p>
+        </div>
+      </div>
+    </div>
+
+<div class="footer">
+<p>Copyrigh 2023-Aman</p>
+</div>
+<script src="script.js"></script>
+  </body>
+</html>
